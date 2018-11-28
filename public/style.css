@@ -1,0 +1,130 @@
+
+html {
+    background-color: black;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+#root{
+    background-color: pink;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.App {
+    width: 100%;
+    background-color: purple;
+    overflow: hidden;
+
+}
+
+.Overall {
+    width: 80%;
+    background-color: navy;
+    overflow: hidden;
+}
+
+.Folio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#old-computer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* height: 50vw; */
+    z-index: 4;
+    pointer-events: none;
+}
+
+.carousel-container {
+    font-family: 'press start 2p', system, monospace;
+    width: 31%;
+    height: 22vw;
+    left: 35%;
+    overflow: hidden;
+    background-color: #222;
+    position: absolute;
+    top: 10.8vw;
+    z-index: 7;
+}
+
+.nav-arrow {
+    position: absolute;
+    font-family: 'press start 2p';
+    font-size: 5vw;
+    z-index: 5;
+    color: limegreen;
+    top: 20%;
+    /* transform: translate(-50%, -50%) */
+}
+
+.nav-arrow:hover {
+    cursor: pointer;
+}
+
+.nav-arrow:active {
+    color: rgb(130, 240, 130);
+}
+#right-arrow{
+    right: 0;
+}
+
+#left-arrow{
+    left: 0;
+}
+
+.portfolio-card {
+    /* display: flex; */
+    position: absolute;
+    transition: left 2s, color 2s;
+    transform: translate(-50%);
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.front-row-item{
+    position: absolute;
+    top: 10%;
+    z-index: 4;
+    pointer-events:auto;
+    height: 60%;
+    width: 60%;
+    border: 0.4em dashed limegreen;
+    background-color: rgba(20, 50, 20, 0.5);
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+.back-row-item{
+    position: absolute;
+    bottom: 20%;
+    z-index: 3;
+    pointer-events: none;
+    height: 20%;
+    width: 20%;
+    opacity: 0.2;
+    transform: rotateY(180deg) translate(-50%, 0);
+    border: 0.3em dashed limegreen;
+    background-color: rgba(20, 50, 20, 0.5);
+    font-size: 0.3vw;
+}
+
+.front-row-item .portfolio-pic {
+    height: 50%;
+    border: 0.3em limegreen dashed;
+}
+
+.back-row-item .portfolio-pic {
+    margin: 10%;
+    height: 40%;
+    border: 0.2em limegreen dashed;
+}
+
+
+
