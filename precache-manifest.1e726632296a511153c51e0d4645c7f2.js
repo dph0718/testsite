@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "d5098b2c3d1417da8ccd9764612248ca",
+    "url": "./static/media/tileable_wood_texture.d5098b2c.png"
+  },
+  {
     "revision": "e43410103330cabaa9874145635b9c28",
     "url": "./static/media/navplank.e4341010.png"
   },
@@ -8,19 +12,19 @@ self.__precacheManifest = [
     "url": "./static/js/runtime~main.4a686d48.js"
   },
   {
-    "revision": "eb0ed7b19a3882c6b5f3",
-    "url": "./static/js/main.eb0ed7b1.chunk.js"
+    "revision": "f24d9a745c3dd0ca8651",
+    "url": "./static/js/main.f24d9a74.chunk.js"
   },
   {
     "revision": "c2aeeb155513c7f2e43e",
     "url": "./static/js/1.c2aeeb15.chunk.js"
   },
   {
-    "revision": "eb0ed7b19a3882c6b5f3",
-    "url": "./static/css/main.e7dbecba.chunk.css"
+    "revision": "f24d9a745c3dd0ca8651",
+    "url": "./static/css/main.83a3db0c.chunk.css"
   },
   {
-    "revision": "dee9c04fc4c824bc598e019a72ead83c",
+    "revision": "c1e03710c72c5b55553977d31cf3d7af",
     "url": "./index.html"
   }
 ];
