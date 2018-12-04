@@ -1,5 +1,5 @@
 .Home {
-    background-image: url('/images/tileable_wood_texture.png');
+    background-image: url('../../images/tileable_wood_texture.png');
     background-repeat: repeat-x repeat-y;
     width: 100vw;
     height: 100vh;

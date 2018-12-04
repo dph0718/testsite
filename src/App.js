@@ -14,6 +14,7 @@ import pullDownOptions from './data/pullDownOptions'
 
 class App extends Component {
 
+  componentDidMount(){console.log('App mounted.')}
   state = {
   }
   render() {
@@ -24,9 +25,12 @@ class App extends Component {
           <div>
             <PullDownBar 
             options={pullDownOptions}/>
+            {console.log(' USING AN IMPORT. geez.')}
             <Switch>
-              <Route exact path="(/|/home)" component={HomePage} />
-              <Route exact path="/portfolio" component={FolioPage} />
+              {/* when deploying to GitHub Pages, PUBLIC_URL is required to deploy to the url */}
+              {/* if you use the repo name in _here_, it won't work on a dev server.*/}
+              <Route exact path={process.env.PUBLIC_URL + '(/|/home)'} component={HomePage} />
+              <Route exact path={process.env.PUBLIC_URL + '/portfolio'} component={FolioPage} />
             </Switch></div>
         </Router>
       </div>

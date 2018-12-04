@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import stackNavCards from '../../functions/stackNavCards';
 import './homePage.css';
 
+
 class HomePage extends Component {
 
   state = {
