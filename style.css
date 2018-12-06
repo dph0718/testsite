@@ -126,5 +126,19 @@ html {
     border: 0.2em limegreen dashed;
 }
 
+.portfolio-pic:hover {
+    cursor: pointer;
+}
+.portfolio-pic:active {
+    cursor: pointer;
+}
 
+.portfolio-link:hover {
+    background-color: rgba(40, 100, 40, 0.5);
+    background-image: url(images/green-cursor.png)
+}
 
+.portfolio-link a {
+    text-decoration: none;
+    color: limegreen;
+}
