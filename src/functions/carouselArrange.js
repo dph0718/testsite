@@ -15,13 +15,13 @@ function arrangeCarousel(containingArray, position, row) {
     }
 
     //distance = (distance between midpoints of items) * (item's position) - (displacement to left)
-    if (className == 'front-row-item') {
+    if (className === 'front-row-item') {
         distance = 72 * position - 95 + '%'
         adjPos = position;
     }
 
     //halfway = the middle of the back row's items
-    if (className == 'back-row-item') {
+    if (className === 'back-row-item') {
         let halfWay = Math.floor(firstBack / 2);
         //adjPos = (((position )))
         adjPos = (((position + halfWay)) + rowSize) % rowSize;

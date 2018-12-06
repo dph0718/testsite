@@ -2,7 +2,7 @@
     position: fixed;
     width: 100vw;
     height: 20%;
-    background-image: url('../../images/navplank.png');
+    background-image: url('../../images/navplank-small.png');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -22,7 +22,7 @@
     text-shadow: 15px 5px 15px black, -15px 5px 15px black;
     text-decoration: none;
     transition: all 1s;
-    font-family: 'ribeye';
+    font-family: 'ribeye', monospace;
 }
 
 .navLink:hover {

@@ -5,11 +5,14 @@ import React from 'react';
 import PortfolioCard from "../components/PortfolioCard.js";
 import portfolioItems from "../data/portfolioObjects"
 
+
+
 function makeCarousel(row) {
     let allPortfolioItems = portfolioItems.map(pfItem => {
         return <PortfolioCard
             title={pfItem.title}
             githubLink={pfItem.githubLink}
+            deployedLink={pfItem.deployedLink}
             alt={pfItem.alt}
             stackOverflowLink={pfItem.stackOverflowLink}
             portfolioImage={pfItem.portfolioImage}

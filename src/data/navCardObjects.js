@@ -1,7 +1,11 @@
 import compy from '../images/portfolioCompy.png';
-import david from '../images/david.png';
-import telefono from '../images/oldTelefono.png';
-import meetpie from '../images/meetpie.png';
+import david from '../images/david-small.png';
+import telefono from '../images/crankTelephone-small.png';
+import meetpie from '../images/saturn.png';
+// import compy from '../images/portfolioCompy.png';
+// import david from '../images/david-small.png';
+// import telefono from '../images/crankTelephone-small.png';
+// import meetpie from '../images/meetpie.png';
 
 let navCardObject = class {
     constructor(title,

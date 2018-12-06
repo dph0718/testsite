@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import makeCarousel from '../functions/makeCarousel.js'
 import portfolioItems from "../data/portfolioObjects"
 import positiono from "../functions/assignPosition.js"
-
+import greenCursor from "../images/green-cursor.png"
+import dave from "../images/david-small.png"
 
 class CarouselContainer extends Component {
     state = {
@@ -25,9 +26,14 @@ class CarouselContainer extends Component {
     }
 
     render() {
+
+        let style = {
+            cursor: greenCursor, 
+            backgroundImage: dave 
+        }
         console.log(this);
         return (
-            <div className="carousel-container">
+            <div className="carousel-container" style={style}>
 
                 <h1 id='left-arrow'
                     className='nav-arrow'

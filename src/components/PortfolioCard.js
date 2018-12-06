@@ -7,8 +7,49 @@ import carouselArrange from "../functions/carouselArrange.js"
 // [ ] inline styles for x-position to be received as props from the parent, who shifts arrays. 
 
 class PortfolioCard extends Component {
+    state = {
+        clicked: false
+    }
+
+    changeClickedState = () => {
+        this.setState({ clicked: !this.state.clicked })
+    }
+
 
     render() {
+
+        let DeployOption = () => {
+            if (this.props.deployedLink === 'unavailable') {
+                return <h4>no good deployment</h4>
+            } else if (this.props.deployedLink === 'current') {
+                return <h4>this <em>is</em> the deployed version.</h4>
+            } else {
+                return <a target="_blank" href={this.props.deployedLink}> <h4>see deployed</h4></a>
+            }
+        }
+
+        let CardContent = () => {
+            if (this.state.clicked) {
+                return (
+                    <div>
+                        <div className="portfolio-link portfolio-pic">
+                            <a target='_blank' href={this.props.githubLink} ><h4 textDecoration='none'>see on GitHub</h4></a>
+                        </div>
+                        <div className="portfolio-link portfolio-pic">
+                            <DeployOption />
+                        </div></div>
+                )
+            } else {
+                return (
+                    // <div>
+                    <img src={pic} alt="good picture" title={alt} className="portfolio-pic"></img>
+                    // </div>
+                )
+
+            }
+        }
+
+
 
         let row = this.props.row;
         let pos = this.props.position;
@@ -27,11 +68,14 @@ class PortfolioCard extends Component {
         }
         return (
             <div className={styling.className}
-                style={styling} >
-                    <h4>{this.props.title}</h4>
-                <a  href={this.props.githubLink} target="_blank">
+                style={styling}
+                onClick={this.changeClickedState}>
+                <h4>{this.props.title}</h4>
+
+                <CardContent />
+                {/* <a href={this.props.githubLink} target="_blank">
                     <img src={pic} alt="good picture" title={alt} className="portfolio-pic"></img>
-                </a>
+                </a> */}
             </div>
         )
     }
