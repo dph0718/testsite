@@ -11,12 +11,17 @@ class PortfolioCard extends Component {
         clicked: false
     }
 
+
     changeClickedState = () => {
         this.setState({ clicked: !this.state.clicked })
     }
 
 
     render() {
+
+        const removeDeco = {
+            textDecoration: "none"
+        }
 
         let DeployOption = () => {
             if (this.props.deployedLink === 'unavailable') {
@@ -33,10 +38,10 @@ class PortfolioCard extends Component {
                 return (
                     <div>
                         <div className="portfolio-link portfolio-pic">
-                            <a target='_blank' href={this.props.githubLink} ><h4 textDecoration='none'>see on GitHub</h4></a>
+                            <a target='_blank' href={this.props.githubLink} ><h4 style={removeDeco}>see on GitHub</h4></a>
                         </div>
                         <div className="portfolio-link portfolio-pic">
-                            <DeployOption />
+                            <DeployOption style={removeDeco} />
                         </div></div>
                 )
             } else {
