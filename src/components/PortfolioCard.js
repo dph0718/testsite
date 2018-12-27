@@ -19,13 +19,18 @@ class PortfolioCard extends Component {
 
     render() {
 
-        const removeDeco = {
-            textDecoration: "none"
-        }
+        let deploy = this.props.deployedLink;
+        let removeDeco = {
 
+            textDecoration: "none",
+        }
         let DeployOption = () => {
             if (this.props.deployedLink === 'unavailable') {
-                return <h4>no good deployment</h4>
+                let noWayJose = {
+                    textDecoration: "none",
+                    cursor: 'not-allowed'
+                }
+                return <h4 style={noWayJose} >no good deployment</h4>
             } else if (this.props.deployedLink === 'current') {
                 return <h4>this <em>is</em> the deployed version.</h4>
             } else {
@@ -76,11 +81,7 @@ class PortfolioCard extends Component {
                 style={styling}
                 onClick={this.changeClickedState}>
                 <h4>{this.props.title}</h4>
-
                 <CardContent />
-                {/* <a href={this.props.githubLink} target="_blank">
-                    <img src={pic} alt="good picture" title={alt} className="portfolio-pic"></img>
-                </a> */}
             </div>
         )
     }
