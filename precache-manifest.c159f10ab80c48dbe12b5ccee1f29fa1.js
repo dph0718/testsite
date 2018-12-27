@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/testsite/static/media/hangman-small.cf8950f0.png"
   },
   {
-    "revision": "0664448e7c76b8c49ae9",
-    "url": "/testsite/static/css/main.bb1fb617.chunk.css"
+    "revision": "673e9084ff3b821cd8bb",
+    "url": "/testsite/static/css/main.2c3fb601.chunk.css"
   },
   {
-    "revision": "2da4a53ea2c316e877d4",
-    "url": "/testsite/static/js/1.2da4a53e.chunk.js"
+    "revision": "92e48940a1aeb7a4a4b5",
+    "url": "/testsite/static/js/1.92e48940.chunk.js"
   },
   {
     "revision": "bfe900b1433afc608a54",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/testsite/static/media/amiga.6adbe5ed.png"
   },
   {
-    "revision": "0664448e7c76b8c49ae9",
-    "url": "/testsite/static/js/main.0664448e.chunk.js"
+    "revision": "673e9084ff3b821cd8bb",
+    "url": "/testsite/static/js/main.673e9084.chunk.js"
   },
   {
     "revision": "a778bb71b053d832b5f320233a4c9360",
@@ -72,11 +72,15 @@ self.__precacheManifest = [
     "url": "/testsite/static/media/tileable_wood_texture.d5098b2c.png"
   },
   {
+    "revision": "e88495468a5b55f7d10f3f88b0fcb4aa",
+    "url": "/testsite/static/media/paper.e8849546.png"
+  },
+  {
     "revision": "e35a5d0e06e172ac0cbb1014ae8b5163",
     "url": "/testsite/static/media/navplank-small.e35a5d0e.png"
   },
   {
-    "revision": "5996a4bea55fe46fb9c7b423167dcaea",
+    "revision": "46d2fc02a7a19df6542cb790b7f1119e",
     "url": "/testsite/index.html"
   }
 ];

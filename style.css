@@ -135,10 +135,10 @@ html {
 
 .portfolio-link:hover {
     background-color: rgba(40, 100, 40, 0.5);
-    background-image: url(images/green-cursor.png)
+    background-image: url(static/images/green-cursor.png)
 }
 
-.portfolio-link a {
+.portfolio-link a, h4 {
     text-decoration: none;
     color: limegreen;
 }
