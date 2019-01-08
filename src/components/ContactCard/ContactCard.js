@@ -52,9 +52,9 @@ class ContactCard extends Component {
     let shadStyle = {
       // backgroundColor: "blue",
       // textShadow: '20px 20px 2px red',
-      filter: ` drop-shadow(${this.state.shadX}px ${this.state.shadY}px 2px teal)`,
+      // filter: ` drop-shadow(${this.state.shadX}px ${this.state.shadY}px 2px teal)`,
       transform: `rotateZ(${this.state.rotate * 2}deg) rotateY(${this.state.rotate})`,
-      transformOrigin: `50% -300%`,
+      transformOrigin: `50% -100%`,
       transition: `all ${this.state.swingTime}s cubic-bezier(0.5, 0, 0.5, 1)`,
     }
 
@@ -74,8 +74,7 @@ class ContactCard extends Component {
     return (
       <div className="contact-card" style={cardStyle}  >
         <div className='contact-info' style={shadStyle}>
-          <h2>email: dph0718@gmail.com </h2>
-          <h2>phone: 401 </h2>
+          <h2>find me on: </h2>
           <h2><a href="https://www.linkedin.com/in/david--huffman/" target="_blank">LinkedIn <i className="fa fa-linkedin-square"></i></a></h2>
           <h2><a href="https://github.com/dph0718" target="_blank">GitHub <i className="fa fa-github"></i></a></h2>
         </div>

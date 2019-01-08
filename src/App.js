@@ -12,6 +12,7 @@ import PullDownBar from './components/PullDownBar'
 
 //Importing Data
 import pullDownOptions from './data/pullDownOptions'
+import placeholderPage from './pages/PlaceholderPage/PlaceholderPage';
 
 class App extends Component {
 
@@ -33,6 +34,7 @@ class App extends Component {
               <Route exact path={process.env.PUBLIC_URL + '(/|/home)'} component={HomePage} />
               <Route exact path={process.env.PUBLIC_URL + '/portfolio'} component={FolioPage} />
               <Route exact path={process.env.PUBLIC_URL + '/contact'} component={ContactPage} />
+              <Route component={placeholderPage} />
             </Switch></div>
         </Router>
       </div>

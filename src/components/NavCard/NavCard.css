@@ -53,6 +53,8 @@
     width: 100%;
     background-position: center;
     background-size: cover;
+    border-radius: 15px;
+
 }
 
 .backgroundDiv, .cardText, .cardTitle {
