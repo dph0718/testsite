@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 //Importing Pages
-import FolioPage from "./pages/FolioScreen"
+import FolioPage from "./pages/FolioPage"
 import HomePage from './pages/HomePage';
 import ContactPage from './pages/ContactPage/ContactPage';
 

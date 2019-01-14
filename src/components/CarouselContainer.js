@@ -31,7 +31,6 @@ class CarouselContainer extends Component {
             cursor: greenCursor, 
             backgroundImage: dave 
         }
-        console.log(this);
         return (
             <div className="carousel-container" style={style}>
 

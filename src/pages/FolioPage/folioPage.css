@@ -1,0 +1,9 @@
+.invisible {
+    display: none;
+}
+
+#hourglass-image {
+    position: absolute;
+    top: 40vh;
+    width: 15vh;
+}
