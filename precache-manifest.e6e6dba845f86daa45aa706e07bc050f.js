@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "cf8950f0f8fc2f87ed2af022e807cd30",
-    "url": "/testsite/static/media/hangman-small.cf8950f0.png"
+    "revision": "6adbe5edcaac91935f51154b3d202ca0",
+    "url": "/testsite/static/media/amiga.6adbe5ed.png"
   },
   {
-    "revision": "e2772767073f80665357",
-    "url": "/testsite/static/css/main.28b34715.chunk.css"
+    "revision": "f68c766e9bc727f0cc3e",
+    "url": "/testsite/static/css/main.07087d2a.chunk.css"
   },
   {
-    "revision": "c629128add8bae90223e",
-    "url": "/testsite/static/js/1.c629128a.chunk.js"
+    "revision": "d9bddb1721f7e8ef2a69",
+    "url": "/testsite/static/js/1.d9bddb17.chunk.js"
   },
   {
     "revision": "bfe900b1433afc608a54",
@@ -18,6 +18,10 @@ self.__precacheManifest = [
   {
     "revision": "0236084f6f81f31b613019828506ba56",
     "url": "/testsite/static/media/david-small.0236084f.png"
+  },
+  {
+    "revision": "a01cb062ce03e3340db7030a1fb16080",
+    "url": "/testsite/static/media/oldcomputer.a01cb062.png"
   },
   {
     "revision": "f006d8e53785fa49e1ffdc895af337c9",
@@ -36,12 +40,12 @@ self.__precacheManifest = [
     "url": "/testsite/static/media/frender-small.959823cf.png"
   },
   {
-    "revision": "6adbe5edcaac91935f51154b3d202ca0",
-    "url": "/testsite/static/media/amiga.6adbe5ed.png"
+    "revision": "f68c766e9bc727f0cc3e",
+    "url": "/testsite/static/js/main.f68c766e.chunk.js"
   },
   {
-    "revision": "e2772767073f80665357",
-    "url": "/testsite/static/js/main.e2772767.chunk.js"
+    "revision": "cf8950f0f8fc2f87ed2af022e807cd30",
+    "url": "/testsite/static/media/hangman-small.cf8950f0.png"
   },
   {
     "revision": "a778bb71b053d832b5f320233a4c9360",
@@ -50,10 +54,6 @@ self.__precacheManifest = [
   {
     "revision": "92f9b3354d17c6e894800a7caa10bb5f",
     "url": "/testsite/static/media/meetpie-small.92f9b335.png"
-  },
-  {
-    "revision": "a01cb062ce03e3340db7030a1fb16080",
-    "url": "/testsite/static/media/oldcomputer.a01cb062.png"
   },
   {
     "revision": "efb98544bdfb6429650f7effdaa5173b",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/testsite/static/media/navplank-small.e35a5d0e.png"
   },
   {
-    "revision": "9a09243755ef95b1ccf623b7bbd93ac9",
+    "revision": "1afad0cf3ba811c435d42303188a40d0",
     "url": "/testsite/index.html"
   }
 ];
