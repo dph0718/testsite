@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "6adbe5edcaac91935f51154b3d202ca0",
-    "url": "/testsite/static/media/amiga.6adbe5ed.png"
+    "revision": "cf8950f0f8fc2f87ed2af022e807cd30",
+    "url": "/testsite/static/media/hangman-small.cf8950f0.png"
   },
   {
-    "revision": "f68c766e9bc727f0cc3e",
-    "url": "/testsite/static/css/main.07087d2a.chunk.css"
+    "revision": "1e81df4ac51c2354e480",
+    "url": "/testsite/static/css/main.326c1b89.chunk.css"
   },
   {
-    "revision": "d9bddb1721f7e8ef2a69",
-    "url": "/testsite/static/js/1.d9bddb17.chunk.js"
+    "revision": "af45479bbd3f5fda9b07",
+    "url": "/testsite/static/js/1.af45479b.chunk.js"
   },
   {
     "revision": "bfe900b1433afc608a54",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/testsite/static/media/frender-small.959823cf.png"
   },
   {
-    "revision": "f68c766e9bc727f0cc3e",
-    "url": "/testsite/static/js/main.f68c766e.chunk.js"
+    "revision": "6adbe5edcaac91935f51154b3d202ca0",
+    "url": "/testsite/static/media/amiga.6adbe5ed.png"
   },
   {
-    "revision": "cf8950f0f8fc2f87ed2af022e807cd30",
-    "url": "/testsite/static/media/hangman-small.cf8950f0.png"
+    "revision": "1e81df4ac51c2354e480",
+    "url": "/testsite/static/js/main.1e81df4a.chunk.js"
   },
   {
     "revision": "a778bb71b053d832b5f320233a4c9360",
@@ -54,6 +54,14 @@ self.__precacheManifest = [
   {
     "revision": "92f9b3354d17c6e894800a7caa10bb5f",
     "url": "/testsite/static/media/meetpie-small.92f9b335.png"
+  },
+  {
+    "revision": "e88a7921753a61a7e807e22fe49b3520",
+    "url": "/testsite/static/media/buddpuckers-small.e88a7921.png"
+  },
+  {
+    "revision": "acf5e7a45a30e311383b5f260b165ccc",
+    "url": "/testsite/static/media/spousefinder-small.acf5e7a4.png"
   },
   {
     "revision": "efb98544bdfb6429650f7effdaa5173b",
@@ -80,7 +88,7 @@ self.__precacheManifest = [
     "url": "/testsite/static/media/navplank-small.e35a5d0e.png"
   },
   {
-    "revision": "1afad0cf3ba811c435d42303188a40d0",
+    "revision": "1b7c57813efad995bc1d4a3cd03a8054",
     "url": "/testsite/index.html"
   }
 ];
