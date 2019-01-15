@@ -9,6 +9,8 @@ import hangman from '../images/hangman-small.png';
 import liri from '../images/liri.png';
 import karmadillo from '../images/karmadillo-small.png';
 import meetpie from '../images/meetpie-small.png';
+import buddpuckers from '../images/buddpuckers-small.png';
+import spousefinder from '../images/spousefinder-small.png';
 
 
 
@@ -47,7 +49,9 @@ export default [
     new PortfolioObject('LIRI, the Cable Guy', 'https://github.com/dph0718/liri-node-app', "unavailable",'Liri, the Cable Guy', 'blah', liri, "7"),
     new PortfolioObject('Karmadillo', 'https://github.com/dph0718/Karmadillo', 'unavailable','Karmadillo', 'blah', karmadillo, "8"),
     new PortfolioObject('MeetPie', 'https://github.com/tspatek/Project-1', 'unavailable','Meetpie', 'blah', meetpie, "9"),
-
+    new PortfolioObject('Buddpuckers', 'https://github.com/dph0718/sql-buddpuckers', 'https://buddpuckers-burger-database.herokuapp.com/','Mmm, Gourmet burgers.', 'blah', buddpuckers, "10"),
+    new PortfolioObject('Spouse Finder', 'https://github.com/dph0718/friend-finder', 'https://spouse-finder-10001.herokuapp.com/','Spouse Finder', 'blah', spousefinder, "11"),
+    
     // new PortfolioObject('Shaq Fu', 'http://github.com', 'The ultimate fighter for SNES', 'blah', 'images/shaqfu.png', "10"),
     // new PortfolioObject('Home Alone II', 'http://github.com', 'Lost in New York', 'blah', 'images/shaqfu.png', "11"),
     // new PortfolioObject('Harry & the Hendersons', 'http://github.com', "John Lithgow's finest performance.", 'blah', 'images/shaqfu.png', "12"),
