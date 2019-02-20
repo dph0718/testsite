@@ -31,18 +31,16 @@ class ContactCard extends Component {
       rotate = 350;
     }
     this.setState({ shadX: assignPosition, shadY: 0, rotate: rotate, shadBlur: shadoBlur });
-    console.log('swing!')
   }
 
-  swingSubstitute = ()=>{
-    console.log('Hi there.', this.state.shadX)
-    this.setState({shadX: !this.state.shadX})
+  swingSubstitute = () => {
+    this.setState({ shadX: !this.state.shadX })
   }
 
 
 
   callinBack = () => {
-    console.log('placeholder callback.')
+    // console.log('placeholder callback.')
   }
 
 
@@ -69,7 +67,7 @@ class ContactCard extends Component {
       // transform: `rotate(${this.state.rotate}deg)`,
       transformOrigin: `50% -500% 0`
     }
-    { setTimeout(this.swingSubstitute, this.state.swingTime * 1000) }
+    setTimeout(this.swingSubstitute, this.state.swingTime * 1000)
 
     return (
       <div className="contact-card" style={cardStyle}  >

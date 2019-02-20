@@ -24,22 +24,21 @@ class FolioScreen extends Component {
       }, 2000);
 
     } else {
-      console.log('it was true.')
+      // console.log('it was true.')
       return
     }
   }
 
 
   render() {
-    console.log('rendiner.', this.state.carouselLoaded)
     const Placeholder = () => {
       if (this.state.carouselLoaded === false) {
-        return <div ><img id="hourglass-image"src={hourglass} /></div>
+        return <div ><img id="hourglass-image"src={hourglass} alt="spinning hourglass"/></div>
 
       } else {
         return        <div className="Folio">
 
-          <img id="old-computer"
+          <img id="old-computer" alt="computer screen"
             src={oldcomputer}
           />
 
@@ -56,6 +55,7 @@ class FolioScreen extends Component {
         <img className="invisible"
           src={oldcomputer}
           onLoad={this.reportLoaded}
+          alt="invisible computer"
            />
         <Placeholder />
       </div>

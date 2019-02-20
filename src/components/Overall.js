@@ -10,7 +10,7 @@ class Overall extends Component {
     };
 
     recordState = () => {
-        console.log(this);
+        // console.log(this);
     }
 
     componentWillReceiveProps(newProps) {
@@ -20,7 +20,7 @@ class Overall extends Component {
     };
     render() {
         let boogie = <h2>Yes sir.</h2>
-        console.log(this.state)
+        // console.log(this.state)
         return (
             <div className="Overall">
                 <CarouselContainer />

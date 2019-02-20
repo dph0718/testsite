@@ -48,9 +48,10 @@ class placeholderPage extends Component {
   render() {
     return (
       <div className="placeholder-page">
-        <div className="hourglass-image"><img src={hourglass} /></div>
-        <div className="placeholder-message" >
-          I'm working on it {this.state.wordSoFar} </div>
+        <div className="hourglass-image"><img src={hourglass} alt="turning hourglass"/></div>
+        <div className="placeholder-pre-message">There's not much here yet.</div>
+        <div className="placeholder-message">
+          But I'm working on it {this.state.wordSoFar} </div>
       </div>
     );
   }

@@ -11,6 +11,12 @@
     width: 25%;
     filter: drop-shadow(10px 10px 8px rgba(0, 0, 0, 0.6))
 }
+.placeholder-pre-message {
+    font-size: 1em;
+    color: white;
+    font-family: 'ribeye', 'chelsea market', sans-serif;
+    text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.6);
+}
 
 .placeholder-message {
     font-size: 2em;
@@ -18,5 +24,5 @@
     font-family: 'ribeye', 'chelsea market', sans-serif;
     text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.6);
     margin-bottom: 25%;
-width: 100%;
+    width: 100%;
 }

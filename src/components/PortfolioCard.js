@@ -34,7 +34,7 @@ class PortfolioCard extends Component {
             } else if (this.props.deployedLink === 'current') {
                 return <h4>this <em>is</em> the deployed version.</h4>
             } else {
-                return <a target="_blank" href={this.props.deployedLink}> <h4>see deployed</h4></a>
+                return <a rel="noopener noreferrer" target="_blank" href={this.props.deployedLink}> <h4>see deployed</h4></a>
             }
         }
 
